@@ -43,7 +43,7 @@ cdata = imread(image_file);
 % a texturemap, which Matlab expects to be in cdata. Turn off the mesh edges.
 set(globe, 'FaceColor', 'texturemap', 'CData', cdata, 'FaceAlpha', alpha, 'EdgeColor', 'none');
 
-% Added to diplay orbital elements on Earth 
+% 
 hold on
 % plot orbit on top
 plot3(s_real(:,1),s_real(:,2),s_real(:,3),'r')
